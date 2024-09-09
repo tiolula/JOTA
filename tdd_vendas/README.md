@@ -6,9 +6,9 @@ Neste Dojo vamos treinar testes automatizados para um sistema que ainda não exi
 
 Passo a passo do nosso fluxo:
 
-1. Escrever um teste e rodar
-2. Escrever a solução mínima e rodar os testes
-3. Melhorar o código e rodar os testes
+1. Escrever um teste e rodar >> VERMELHO
+2. Escrever a solução **mínima** e rodar os testes >> VERDE
+3. Melhorar o código e rodar os testes >> VERDE
 4. Voltar ao passo 1
 
 ## Regras de Negócio
