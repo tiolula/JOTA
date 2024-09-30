@@ -1,0 +1,14 @@
+name: JOTA Workflow
+
+on:
+  push:
+    branches:
+      - dojo_ci_20240930
+  workflow_dispatch:
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: pytest
+              run: pytest
