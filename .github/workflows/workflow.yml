@@ -10,9 +10,13 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
+            - name: checkout do código
+              uses: actions/checkout@v3
+
             - name: Install dependencies
               run: |
                 python -m pip install --upgrade pip
                 pip install pytest  
+                
             - name: run pytest
               run: pytest
