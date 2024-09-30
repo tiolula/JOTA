@@ -19,7 +19,7 @@ jobs:
                 pip install pytest pylint
 
             - name: Linter do código
-              run: pylint
+              run: pylint ./tdd_vendas
                 
             - name: run pytest
               run: pytest
